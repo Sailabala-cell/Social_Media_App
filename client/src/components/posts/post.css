@@ -1,0 +1,78 @@
+.post{
+    width:100%;
+    border-radius: 10px;  
+    -webkit-box-shadow: -4px 3px 31px -7px rgba(179,118,179,1);
+    -moz-box-shadow: -4px 3px 31px -7px rgba(179,118,179,1);
+    box-shadow: -4px 3px 31px -7px rgba(179,118,179,1);
+}
+
+.profilepicture{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.postWrapper{
+    margin:20px;
+    padding:10px 0
+}
+
+.postTop{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    
+}
+.profiletime{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.profilename{
+    font-size: 15px;
+    font-weight: 500;
+    margin:0 10px;
+}
+.postCentre{
+    display: flex;
+    flex-direction: column;
+     margin:20px 0;
+}
+
+.postBottomLeft{
+    display:flex;
+    align-items: center;
+    
+}
+.postPic{
+    width:100%;
+    object-fit: contain;
+    max-height: 400px;
+    margin-top: 10px 0;
+}
+.postdesc{
+    margin-bottom: 10px;
+}
+.loveButton{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.likeButton{
+    height:28px;
+    width:28px;
+     margin-bottom: -2px;
+     cursor: pointer;
+}
+.postBottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+

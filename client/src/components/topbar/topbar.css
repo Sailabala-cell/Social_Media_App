@@ -1,0 +1,86 @@
+
+  .TopbarWrapper{
+    display:flex;
+    height:50px;
+    width:100%;
+    align-items: center;
+    position:sticky;
+  z-index:999;
+
+  background: orange;
+    top:0
+  }
+  
+  .TopLeft{
+    flex:3;
+  }
+  .logo{
+    margin-left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .TopCenter{
+    flex:5
+  }
+  .searchbar{
+    height:30px;
+     width:100%;
+     background-color: white;
+     border-radius: 30px;
+     display:flex;
+     align-items: center;
+  }
+  .logoicon{
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  .search{
+    border:none;
+    width:70%
+  }
+  .search:focus{
+  outline: none;
+  }
+  
+  .TopRight{
+    flex:4;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .homepagelink,.Timelinelink{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .centericons{
+    display:flex;
+  }
+  .topicons{
+    margin-right: 15px;
+    cursor:pointer;
+    position:relative
+  }
+  .iconnumber{
+    height: 15px;
+    width: 15px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    top:-5px;
+    right:-5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .topbarImg{
+    width: 32px;
+  height: 32px;
+  border-radius: 50%;   
+  object-fit: cover;
+  cursor: pointer;
+  }
+  
+  
